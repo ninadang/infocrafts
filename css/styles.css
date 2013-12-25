@@ -1,0 +1,31 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,100,300|Oswald:400,300|Wire+One);
+@font-face { font-family: Couture; src: url('Couture.ttf'); }
+@font-face { font-family: Clemente; src: url('Clemente.ttf'); }
+
+* {
+	margin: 0;
+  	padding: 0;
+  	border: 0;
+}
+
+body {
+	font-family: 'Oswald';
+}
+
+header {
+	margin-top: 8%;
+}
+
+h1 {
+	font-family: 'Couture';
+	font-size: 64px;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 18px;
+	text-align: center;
+}
+
