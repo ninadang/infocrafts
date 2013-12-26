@@ -1,18 +1,25 @@
 $(function() {
 
-jQuery.easing.def = "jswing";
-
 $("#day9").hide();
 $("#eSports").hide();
+$("#day92").hide();
 
-  $("#day9button").click(function(){
-  		$("#eSports").hide();
-		$("#day9").slideToggle("slow");
+	$("#day9button").click(function(){
+		$("#eSports").hide();
+		$("#day92").hide();
+		$("#day9").toggle("slow");
 	});
 
     $("#eSportsbutton").click(function(){
   		$("#day9").hide();
-		$("#eSports").slideToggle("slow");
+  		$("#day92").hide();
+		$("#eSports").toggle("slow");
+	});
+
+      $("#day92button").click(function(){
+      	$("#day9").hide();
+  		$("#eSports").hide();
+		$("#day92").toggle("slow");
 	});
 
 });

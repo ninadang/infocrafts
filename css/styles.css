@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,100,300|Oswald:400,300|Wire+One);
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,500,100,300|Wire+One);
 @font-face { font-family: Couture; src: url('Couture.ttf'); }
 @font-face { font-family: Clemente; src: url('Clemente.ttf'); }
 
@@ -9,7 +9,9 @@
 }
 
 body {
-	font-family: 'Oswald';
+	font-family: 'Roboto';
+	font-weight: 300;
+	font-size: 18px;
 	/*background: url(../img/splash-2.png);*/
 	/*background-color: #051021;*/
 }
@@ -41,8 +43,18 @@ h2 {
 	margin-left: 30%;
 }
 
+.a-container {
+	margin-top: 30px;
+	margin-left: 30%;
+	width: 850px;
+}
+
 .thumbnail:hover {
 	cursor: pointer;
+}
+
+.images {
+	margin-left: -100px;
 }
 
 /* carousel */
