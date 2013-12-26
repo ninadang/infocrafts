@@ -10,7 +10,8 @@
 
 body {
 	font-family: 'Oswald';
-	background: url(../img/splash-2.png);
+	/*background: url(../img/splash-2.png);*/
+	/*background-color: #051021;*/
 }
 
 header {
@@ -21,7 +22,7 @@ h1 {
 	font-family: 'Couture';
 	font-size: 64px;
 	text-align: center;
-	color: #FFF;
+	/*color: #FFF;*/
 }
 
 h2 {
@@ -29,11 +30,15 @@ h2 {
 	font-weight: 300;
 	font-size: 18px;
 	text-align: center;
-	color: #FFF;
+	/*color: #FFF;*/
 }
 
 .container {
 	margin-left: 30%;
+}
+
+.thumbnail:hover {
+	cursor: pointer;
 }
 
 /* carousel */
