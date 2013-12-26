@@ -14,7 +14,7 @@ body {
 	/*background-color: #051021;*/
 }
 
-header {
+header, #abouti {
 	margin-top: 8%;
 }
 
@@ -31,6 +31,10 @@ h2 {
 	font-size: 18px;
 	text-align: center;
 	/*color: #FFF;*/
+}
+
+.icons {
+	padding: 10px;
 }
 
 .container {
