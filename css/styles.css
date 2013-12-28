@@ -58,9 +58,10 @@ h2 {
 	cursor: pointer;
 }
 
-.images {
-	margin-left: -100px;
+#day9, #day92, #eSports {
+	margin-left: 70px;
 }
+
 
 /* carousel */
 .media-carousel 
